@@ -1,7 +1,12 @@
 #include <iostream>
 
+void log(const char* message)
+{
+    std::cout << message << std::endl;
+}
+
 int main()
 {
-    std::cout << "Yay! It works!" << std::endl;
+    log("hello world");
     std::cin.get();
 }
